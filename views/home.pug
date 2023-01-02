@@ -1,5 +1,13 @@
-h1 URL Shortener
+extends layout
 
-ul
-  li URLs: #{urls.length}
-  li Visitors: #{visitors}
+block head
+  title URL Shortener
+
+block content
+  h1 URL Shortener
+  
+  ul
+    li URLs: #{urls.length}
+    li Visitors: #{visitors}
+
+  div Some text

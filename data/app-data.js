@@ -6,23 +6,23 @@ function seedData() {
   urls.length = 0;
 
   urls.push({
-    url: 'http://github.com',
+    url: 'http://github.comhttp://github.comhttp://github.com',
     shortCode: 'gh',
-    dateCreate: new Date('2022-12-20T19:02:33'),
+    dateCreated: new Date('2022-12-20T19:02:33'),
     visits: 5
   });
 
   urls.push({
-    url: 'http://rote.com',
-    shortCode: 'rt',
-    dateCreate: new Date('2022-11-20T19:12:22'),
+    url: 'http://rore.com',
+    shortCode: 'rr',
+    dateCreated: new Date('2022-11-20T19:12:22'),
     visits: 54
   });
 
   urls.push({
-    url: 'http://wiki.com',
-    shortCode: 'wiki',
-    dateCreate: new Date('2021-12-20T19:02:33'),
+    url: 'http://wici.com',
+    shortCode: 'wici',
+    dateCreated: new Date('2021-12-20T19:02:33'),
     visits: 59
   });
 

@@ -1,0 +1,25 @@
+extends layout
+
+block head
+  title Short URLs
+
+block content
+  h1 Short URLs
+  
+  table
+    thead
+      th Original URL
+      th Short URL
+      th Date Created
+      th Visits
+    tbody
+      each u in urls
+        tr
+          td
+            a(href=`${u.url}`) #{u.url} 
+          td
+            span #{u.shortCode}
+          td
+            span #{u.dateCreated}
+          td
+            span #{u.visits}
